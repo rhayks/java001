@@ -1,9 +1,9 @@
 public class Funcionario {
 
-        String nomeCompleto;
-        String CPF;
-        String funcao;
-        int salario;
+        private String nomeCompleto;
+        private String CPF;
+        private String funcao;
+        private int salario;
 
         public Funcionario(String nomeCompleto, String CPF, String funcao, int salario) {
                 this.nomeCompleto = nomeCompleto;
@@ -32,7 +32,7 @@ public class Funcionario {
                 return funcao;
         }
 
-        public void setFuncao() {
+        public void setFuncao(String funcao) {
                 this.funcao = funcao;
         }
 

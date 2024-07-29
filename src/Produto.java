@@ -1,10 +1,10 @@
 public class Produto {
 
-    String departamento;
-    int preco;
+    private String departamento;
+    private int preco;
 
-    public Produto (String departaemento, int preco) {
-        this.departamento = departaemento;
+    public Produto (String departamento, int preco) {
+        this.departamento = departamento;
         this.preco = preco;
     }
     public String getDepartamento() {

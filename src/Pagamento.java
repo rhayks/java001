@@ -1,19 +1,19 @@
 public class Pagamento {
 
-    String tipoDePagemento;
-    Pedido pedido;
-    Produto produto;
+    private String tipoDePagamento;
+    private Pedido pedido;
+    private Produto produto;
 
-    public Pagamento(String tipoDePagemento, Pedido pedido, Produto produto){
-        this.tipoDePagemento = tipoDePagemento;
+    public Pagamento(String tipoDePagamento, Pedido pedido, Produto produto){
+        this.tipoDePagamento = tipoDePagamento;
         this.produto = produto;
         this.pedido = pedido;
     }
-    public String getTipoDePagemento(){
-        return tipoDePagemento;
+    public String getTipoDePagamento(){
+        return tipoDePagamento;
     }
-    public void setTipoDePagemento(String tipoDePagemento){
-        this.tipoDePagemento = tipoDePagemento;
+    public void setTipoDePagamento(String tipoDePagamento){
+        this.tipoDePagamento = tipoDePagamento;
     }
     public Pedido getPedido(){
         return pedido;

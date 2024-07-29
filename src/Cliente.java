@@ -1,8 +1,8 @@
 public class Cliente {
 
-    String nomeCompleto;
-    String anoQueNasceu;
-    Telefone telefone;
+    private String nomeCompleto;
+    private String anoQueNasceu;
+    private Telefone telefone;
 
     public Cliente (String nomeCompleto, String anoQueNasceu, Telefone telefone) {
         this.nomeCompleto = nomeCompleto;
@@ -12,7 +12,7 @@ public class Cliente {
     public String getNomeCompleto(){
         return nomeCompleto;
     }
-    public void setNomeCompleto (String anoQueNasceu){
+    public void setNomeCompleto (String nomeCompleto){
         this.nomeCompleto = nomeCompleto;
     }
     public String getAnoQueNasceu(){

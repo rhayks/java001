@@ -1,7 +1,7 @@
 public class Devolucao {
 
-    Pagamento pagamento;
-    Produto produto;
+    private Pagamento pagamento;
+    private Produto produto;
 
     public Devolucao (Pagamento pagamento, Produto produto){
         this.pagamento = pagamento;

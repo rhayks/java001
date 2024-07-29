@@ -1,9 +1,9 @@
 public class Pedido {
 
-    int idCompra;
-    String data;
-    Cliente cliente;
-    Produto produto;
+    private int idCompra;
+    private String data;
+    private Cliente cliente;
+    private Produto produto;
 
     public Pedido (int idCompra, String data, Cliente cliente, Produto produto){
         this.idCompra = idCompra;

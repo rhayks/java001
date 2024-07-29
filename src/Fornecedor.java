@@ -1,8 +1,8 @@
 public class Fornecedor {
 
-    String nomeDoFornecedor;
-    Endereco endereco;
-    Telefone telefone;
+    private String nomeDoFornecedor;
+    private Endereco endereco;
+    private Telefone telefone;
 
     public Fornecedor (String nomeDoFornecedor, Endereco endereco, Telefone telefone){
         this.nomeDoFornecedor = nomeDoFornecedor;

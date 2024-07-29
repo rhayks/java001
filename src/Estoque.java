@@ -1,17 +1,17 @@
 public class Estoque {
 
-    int quantidade;
-    Produto produto;
+    private int quantidade;
+    private Produto produto;
 
     public Estoque (int quantidade, Produto produto){
         this.quantidade = quantidade;
         this.produto = produto;
     }
-    public int getQuantiade(){
+    public int getQuantidade(){
         return quantidade;
     }
-    public void setQuantiade(int quantiade){
-        this.quantidade = quantiade;
+    public void setQuantidade(int quantidade){
+        this.quantidade = quantidade;
     }
     public Produto produto(){
         return produto;
