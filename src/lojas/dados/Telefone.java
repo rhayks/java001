@@ -1,3 +1,5 @@
+package lojas.dados;
+
 public class Telefone {
     private String DDD;
     private String numero;

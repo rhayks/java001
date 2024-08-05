@@ -1,3 +1,5 @@
+package lojas.dados;
+
 public class Loja {
 
     private String nome;
@@ -32,17 +34,5 @@ public class Loja {
 
     public void setTelefone(Telefone telefone) {
         this.telefone = telefone;
-    }
-
-    public void mostrarEndereco() {
-        System.out.println("Rua: " + endereco.getRua());
-        System.out.println("Cidade: " + endereco.getCidade());
-        System.out.println("Estado: " + endereco.getEstado());
-        System.out.println("CEP: " + endereco.getCep());
-    }
-
-    public void mostrarTelefone() {
-        System.out.println("DDD: " + telefone.getDDD());
-        System.out.println("Numero: " + telefone.getNumero());
     }
 }

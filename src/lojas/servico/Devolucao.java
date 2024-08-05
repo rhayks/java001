@@ -1,3 +1,7 @@
+package lojas.servico;
+
+import lojas.dados.Produto;
+
 public class Devolucao {
 
     private Pagamento pagamento;

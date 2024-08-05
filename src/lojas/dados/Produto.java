@@ -1,3 +1,5 @@
+package lojas.dados;
+
 public class Produto {
 
     private String departamento;

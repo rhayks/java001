@@ -1,3 +1,5 @@
+package lojas.dados;
+
 public class Endereco {
 
     private String rua;

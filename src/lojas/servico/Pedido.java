@@ -1,3 +1,8 @@
+package lojas.servico;
+
+import lojas.dados.Cliente;
+import lojas.dados.Produto;
+
 public class Pedido {
 
     private int idCompra;

@@ -1,3 +1,7 @@
+package lojas.repositorio;
+
+import lojas.dados.Produto;
+
 public class Estoque {
 
     private int quantidade;
